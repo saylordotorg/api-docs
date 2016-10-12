@@ -18,7 +18,7 @@ This API service offers information for program partners to access information a
 <h6>Functions</h6><hr>
 <ul>
 {% for apifunction in page.apifunctions %}
-	<li><a href='/#functions{{apifunction}}'>{{apifunction}}</a></li>
+	<li><a href='{{ site.baseurl}}/#functions{{apifunction}}'>{{apifunction}}</a></li>
 {% endfor %}
 </ul>
 
