@@ -4,6 +4,7 @@
 title: Saylor Academy API
 description: API documentation for Saylor Academy.
 url: https://saylordotorg.github.io/api-docs/
+baseurl: /api-docs
 google_analytics_key:
 
 collections:
