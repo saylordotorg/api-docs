@@ -21,6 +21,9 @@ right_code: |
   showgrades int  Optional //true if grades are shown, otherwise false
   lang string  Optional //forced course language
   enablecompletion int  Optional //true if completion is enabled, otherwise false
+  enroltimestart int  Optional //time active enrolment began
+  enroltimeend int  Optional //time of active enrolment end
+  enroltimecreated int  Optional //time the enrolment record was created
   } 
   )
   ~~~
@@ -65,6 +68,15 @@ right_code: |
                   <VALUE>string</VALUE>
               </KEY>
               <KEY name="enablecompletion">
+                  <VALUE>int</VALUE>
+              </KEY>
+              <KEY name="enroltimestart">
+                  <VALUE>int</VALUE>
+              </KEY>
+              <KEY name="enroltimeend">
+                  <VALUE>int</VALUE>
+              </KEY>
+              <KEY name="enroltimecreated">
                   <VALUE>int</VALUE>
               </KEY>
           </SINGLE>
