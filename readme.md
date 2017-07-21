@@ -1,3 +1,7 @@
+
+The Saylor Academy api docs can be viewed at [https://saylordotorg.github.io/api-docs/](https://saylordotorg.github.io/api-docs/)
+---
+
 # Aviator
 
 API documentation template for Jekyll. Browse through a [live demo](#TODO).
