@@ -276,8 +276,8 @@ value string   //the value to search
 ~~~
 {: title="criteria" }
 
-You can search for students in your cohort by searching for email addresses matching your cohorts using the % operator (e.g. '%saylor.org').
-{: .info}
+This function is now deprecated. Use local_wsfunc_programpartner_get_users to get a list of students in your cohort.
+{: .success}
 
 Be sure to use a domain with the search (%) operator. Bad things happen if just searching email addresses with '%'.
 {: .error}
