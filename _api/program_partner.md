@@ -10,6 +10,7 @@ apifunctions:
  - local_wsfunc_get_grades
  - local_wsfunc_get_lastaccess
  - local_wsfunc_get_visible_courses
+ - local_wsfunc_programpartner_get_users
 right_code: |
 ---
 This API service offers information for program partners to access information about their students - and only students present within their cohort.
